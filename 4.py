@@ -1,11 +1,5 @@
-#Remove Duplicates from Sorted Arrays
+# print an sorted array
 
-class solution :
-    nums = input("Enter your number \n ")
-    def removeDuplicates(a, nums: list[int]) -> int:
-        j = 1
-        for i in range(1 , len(nums)):
-            if nums[i] != nums[i-1]:
-                nums[j] = nums[i]
-                j = j+1
-        return j
+a = [45,18,15,13,19,98,97,94,95,56,3,7,4]
+c = sorted(a)
+print(c)
