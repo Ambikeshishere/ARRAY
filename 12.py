@@ -11,3 +11,5 @@ print(str[1:6])
 a = str[1:6]
 
 print(a)
+
+print(str[1:])
