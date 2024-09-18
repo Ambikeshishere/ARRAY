@@ -6,4 +6,4 @@ str = "Ambikesh"
 print(str[4])
 
 # Slicing a string
-print(str[1:4])
+print(str[1:6])
