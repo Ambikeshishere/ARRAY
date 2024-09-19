@@ -17,4 +17,11 @@ print(marks3)
 marks.append(105)
 marks.sort()
 
-print(marks)  
+print(marks)   
+
+marks.sort(reverse=True)
+student.sort(reverse=True)
+print(marks)
+print(student)
+student.sort()
+print(student)
