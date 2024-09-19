@@ -3,6 +3,12 @@
 num1 = input("Chalo pahla number batao \n")
 num2 =input("Ab dusra wala batao\n")
 num3 =input("Ab teesra wala batao\n")
+
+num1 = float(num1)
+num2 = float(num2)
+num3 = float(num3)
+
+
 if (num1 > num2 and num2 > num3):
     print("Pahla wala sabse bada number hai\n")
 elif(num2 > num1 and num1 > num3):
