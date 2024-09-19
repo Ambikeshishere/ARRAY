@@ -38,3 +38,6 @@ print(marks)
 
 student.remove("Duryodhan")
 print(student)
+
+marks.pop(2)
+print(marks)
