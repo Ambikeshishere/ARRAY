@@ -9,4 +9,4 @@ else:
 
 
 
-#baaki divisbilty bhi modulo se check karna maths ke formula aur theorem na lagana samjhe ladke log
+# baaki divisbilty bhi modulo (%) se check karna maths ke formula aur theorem na lagana samjhe ladke log
