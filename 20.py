@@ -25,3 +25,10 @@ print(marks)
 print(student)
 student.sort()
 print(student)
+print(student)
+
+student.reverse()
+print(student)
+
+marks.reverse()
+print(marks)
