@@ -35,3 +35,6 @@ print(marks)
 
 marks.insert(4, "Ambikesh")
 print(marks)
+
+student.remove("Duryodhan")
+print(student)
