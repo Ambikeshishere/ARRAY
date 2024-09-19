@@ -32,3 +32,6 @@ print(student)
 
 marks.reverse()
 print(marks)
+
+marks.insert(4, "Ambikesh")
+print(marks)
