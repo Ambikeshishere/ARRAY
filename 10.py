@@ -6,3 +6,4 @@ if i in list:
     print("Exist")
 else:
     print("Not Exist")
+    
