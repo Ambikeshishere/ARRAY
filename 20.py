@@ -7,3 +7,9 @@ print(len(marks))
 print(len(student))
 
 #lists
+
+marks2 = marks[2:4]
+print(marks2)
+
+marks3 = marks[-5:-1]
+print(marks3)
