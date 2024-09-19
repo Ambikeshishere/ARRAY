@@ -13,3 +13,8 @@ print(marks2)
 
 marks3 = marks[-5:-1]
 print(marks3)
+
+marks.append(105)
+marks.sort()
+
+print(marks)  
