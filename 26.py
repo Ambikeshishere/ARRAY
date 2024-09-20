@@ -11,7 +11,7 @@ print(type(null__sets))
 null__sets.add(1)
 null__sets.add(2)
 sets.remove("Ambikesh")
-sets.clear()
+#sets.clear()
 
 
 
@@ -22,3 +22,4 @@ print(null__sets.pop())
 print(null__sets) 
 
 print(sets.union(sets2))
+print(sets.intersection(sets2))
