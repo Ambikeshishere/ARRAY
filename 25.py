@@ -29,3 +29,6 @@ print(info["skills"]["Java"])
 print(info.keys())
 print(list(info.keys()))
 print(len(list(info.keys())))
+
+print(info.values())
+print(info.items())
