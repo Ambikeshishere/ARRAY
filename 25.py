@@ -10,3 +10,7 @@ info = {
 
 print(info)
 print(info["name"])
+info["name"] = "Abhay Raj LALA"
+
+print(info)
+print(type(info))
