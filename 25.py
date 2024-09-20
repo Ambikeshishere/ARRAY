@@ -16,7 +16,7 @@ info = {
         "JavaScript": "Advanced",
         "ReactJs": "Intermediate"
     }
-    }
+    } 
 
 print(info)
 print(info["name"])
