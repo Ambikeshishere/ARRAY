@@ -19,3 +19,4 @@ subject[a] = b
 
 
 print(subject)
+print(type(subject))
