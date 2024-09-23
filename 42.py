@@ -10,5 +10,6 @@ def print_elements(list):
 
 print_elements(cities)
 print("\n")
+
 print_elements(students)
 
