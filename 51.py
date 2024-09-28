@@ -1,11 +1,10 @@
 # init function
 
 class student:
-    name = "Ambikesh"
-    branch = "ICE"
-    def __init__(self):
+    
+    def __init__(self, fullname):
+        self.name = fullname
         print("Loading DATABASE.................")
-
-s1 = student()
+new = input("Enter the name of student")
+s1 = student(new)
 print(s1.name)
-print(s1.branch)
