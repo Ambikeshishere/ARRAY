@@ -1,4 +1,4 @@
-#Static Method
+#Static Method 
 
 class Student:
     def __init__(self, name , marks):
