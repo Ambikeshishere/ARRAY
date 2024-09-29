@@ -7,3 +7,4 @@ class Account:
 acc1 = Account("12345","asdfgh")
 
 print(acc1.acc_number)
+print(acc1.acc_password)
