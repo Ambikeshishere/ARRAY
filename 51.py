@@ -10,11 +10,15 @@ class student:
         self.name = fullname
         self.marks = marks
         print("Loading DATABASE.................")
+    
+    def welcome(self):
+        print("Welcome Student")
 
 
 new = input("Enter the name of student\n")
 mark = input("Enter the name of student\n")
 s1 = student(new, mark)
+s1.welcome()
 print(s1.name)
 print(s1.marks)
 
