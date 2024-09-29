@@ -13,12 +13,17 @@ class student:
     
     def welcome(self):
         print("Welcome Student")
+    
+    def get_marks(self):
+        return self.marks
 
 
 new = input("Enter the name of student\n")
 mark = input("Enter the name of student\n")
 s1 = student(new, mark)
 s1.welcome()
+
+print(s1.get_marks())
 print(s1.name)
 print(s1.marks)
 
