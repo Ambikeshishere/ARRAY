@@ -8,5 +8,9 @@ class Circle:
     def Area(self):
         print(3.14*self.radius*self.radius)
 
+    def Perimeter(self):
+        print(2*3.14*self.radius)
+
 Circle1 = Circle(5)
 print(Circle1.Area())
+print(Circle1.Perimeter())
