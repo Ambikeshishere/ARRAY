@@ -1,4 +1,4 @@
-#inheritence
+#single inheritence
 class Car:
     @staticmethod
     def start():
