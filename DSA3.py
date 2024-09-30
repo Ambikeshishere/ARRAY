@@ -20,5 +20,5 @@ class Solution:
         return res + roman[s[-1]]
 
 
-a = input("Enter the Roman Number which you want to convert in number \n")
-print(Solution.romanToInt(a))
+x = input("Enter the Roman Number which you want to convert in number \n")
+print(Solution.romanToInt(x))
