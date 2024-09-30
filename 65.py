@@ -6,11 +6,11 @@ class Circle:
         self.radius = radius
 
     def Area(self):
-        print(3.14*self.radius*self.radius)
+        print((22/7)*self.radius*self.radius)
 
     def Perimeter(self):
-        print(2*3.14*self.radius)
+        print(2*(22/7)*self.radius)
 
-Circle1 = Circle(5)
+Circle1 = Circle(7)
 print(Circle1.Area())
 print(Circle1.Perimeter())
