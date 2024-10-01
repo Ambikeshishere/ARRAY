@@ -2,7 +2,7 @@
 Given an array of integers(nums) and an integer(target) return, 
 indicies of the two numbers such that they add up to (target)
 '''
-class Solution:
+class Sum:
     def twoSum(nums,target):
         n = len(nums)
         for i in range(n-1):
@@ -12,4 +12,4 @@ class Solution:
                 print([i,j])
         return
     
-print(Solution.twoSum([4,2,5,6],11))
+print(Sum.twoSum([4,2,5,6],11))
