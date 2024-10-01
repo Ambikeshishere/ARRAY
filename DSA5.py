@@ -15,7 +15,7 @@ class Solution:
                 stack.pop()
         return not stack
     
-x = input("Given a string s containing just the characters '(', ')', '{', '}', '[' and ']' \n")
+x = input("Give a string containing just the characters '(', ')', '{', '}', '[' and ']' \n")
 print(Solution.isValid(x))
 
 
