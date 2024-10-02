@@ -1,6 +1,6 @@
 # Roman To Integer converter
 
-class Solution:
+class Converter:
     def romanToInt(s):
         res = 0
         roman = {
@@ -21,4 +21,4 @@ class Solution:
 
 
 x = input("Enter the Roman Number which you want to convert in number \n")
-print(Solution.romanToInt(x))
+print(Converter.romanToInt(x))
