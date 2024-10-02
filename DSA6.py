@@ -12,4 +12,6 @@ list2 = sorted(list2)
 combined_list = list1 + list2
 print(combined_list)
 
+print("Follow me on Github")
+
 
