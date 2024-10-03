@@ -3,6 +3,7 @@
 class Ambikesh:
     def binary_sum(a,b):
         i = max(len(a), len(b))
+        
         a = a.zfill(i)
         b = b.zfill(i)
         op = ''
