@@ -19,4 +19,4 @@ class Ambikesh:
     
 a = input("Enter the value of first binary number \n")
 b = input("Enter the value of second binary number \n")
-print("Your sum is :- " ,Ambikesh.binary_sum(a,b))
+print("Your sum is :- " , Ambikesh.binary_sum(a,b))
