@@ -1,27 +1,33 @@
-##Sum Closet
+#threeSome closet
 
-def threeSumClosest(nums, target):
-    nums.sort()
-    closest_sum = float('inf')
-    
-    for i in range(len(nums) - 2):
-        left, right = i + 1, len(nums) - 1
-        
-        while left < right:
-            current_sum = nums[i] + nums[left] + nums[right]
-            
-            if abs(current_sum - target) < abs(closest_sum - target):
-                closest_sum = current_sum
-            
-            if current_sum < target:
-                left += 1
-            elif current_sum > target:
-                right -= 1
-            else:
-                return current_sum
-    
-    return closest_sum
+'''
+Given an Integer array nums of length n and an 
+integer target' find three integers in nums that 
+the sume is closet to target.
+'''
 
-nums = [-1, 2, 1, -4]
-target = 1
-print(threeSumClosest(nums, target))  
+
+class Ambikesh:
+    def threeSum(nums, target):
+        nums.sort()
+        cl_sum = float('inf')
+
+        for i in range (len(nums) - 2):
+            left , right = i+1, len(nums)-1
+
+            while left < right:
+                cr_sum = nums[i] + nums[left] + nums[right]
+
+                if abs (cr_sum - target) < abs (cl_sum - target):
+                    cl_sum = cr_sum
+                
+                if cr_sum < target:
+                    left += 1
+                elif cr_sum > target:
+                    right -= 1
+                else:
+                    return cr_sum
+        return cl_sum
+
+x = [-1,2,1,-4]
+print(Ambikesh.threeSum(x,1))
