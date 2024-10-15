@@ -27,5 +27,5 @@ class Ambikesh:
                     right = mid -1
         return -1
 nums = [4,5,6,7,0,1,2]
-target = 0
+target = 5
 print(Ambikesh.Search(nums, target))
