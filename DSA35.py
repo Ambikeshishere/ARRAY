@@ -1,6 +1,6 @@
 # Combination of sums
-class Solution:
-    def combinationSum2(candidates, target):
+class Ambikesh:
+    def Csum2(candidates, target):
         candidates.sort()
         res = []
 
@@ -20,5 +20,5 @@ class Solution:
         return res
 x = [10,1,2,7,6,1,5]
 t = 8
-s = Solution.combinationSum2(x,t)
+s = Ambikesh.Csum2(x,t)
 print(s)
