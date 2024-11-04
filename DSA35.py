@@ -22,3 +22,4 @@ x = [10,1,2,7,6,1,5]
 t = 8
 s = Ambikesh.Csum2(x,t)
 print(s)
+
