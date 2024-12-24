@@ -3,7 +3,7 @@
 
 
 class Solution:
-    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+    def inorderTraversal(root):
         result, stack = [], []
         current = root
         while current or stack:
