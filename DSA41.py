@@ -15,3 +15,4 @@ class Solution:
 
         prevRows.append(newRow)
         return prevRows
+    
